@@ -4,7 +4,7 @@ import "./main.css"
 class ShopItemFunc extends React.Component {
 
   constructor(props) {
-  super(props);
+  this.props = props
   }
 
   render() {
