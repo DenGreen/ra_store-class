@@ -1,11 +1,8 @@
 import React from 'react';
 import "./main.css"
 
-class ShopItemFunc extends React.Component {
 
-  constructor(props) {
-  this.props = props
-  }
+class ShopItemFunc extends React.Component {
 
   render() {
     const {item} = this.props;
